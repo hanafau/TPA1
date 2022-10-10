@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background-color: rgb(194, 194, 194);
+}
+
+.sub-navbar {
+  height: 18vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-navbar h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.sub-navbar ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 30px;
+}
+
+.sub-navbar ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sub-navbar ul li::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+  transition: 0.4s;
+}
+
+.sub-navbar ul li:hover::after {
+  width: 100%;
+}
+
+.about {
+  width: 100%;
+  padding: 45px 0px;
+  background-color: rgb(230, 230, 230);
+}
+
+.about h1 {
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+
+.about img {
+  height: auto;
+  width: 400px;
+  padding-bottom: 30px;
+}
+
+.about-teks {
+  width: 550px;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+.about-teks a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-about {
+  width: 900px;
+  max-width: 95%;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(194, 194, 194);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: -100px;
+  color: white;
+}
